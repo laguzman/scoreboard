@@ -1,0 +1,73 @@
+@font-face {
+font-family: "seven";
+src: url(Seven.ttf) ;
+}
+
+body {
+    margin: 20px;;
+    text-align: center;
+}
+
+.title{
+    margin:20px 0 5px;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.wrapper{
+    
+    width: 500px;
+    margin: 10px auto; 
+    background-color: #adadc1;
+    padding-bottom: 30px;
+    border-bottom: 10px solid #ced4da;
+    border-right: 10px solid #dee2e6;
+    border-left: 10px solid #6c757d;
+    border-top: 10px solid #adb5bd;
+}
+
+
+#home_counter {
+    margin: 0 0 40px;
+    background-color: black;
+    color:red;
+    padding: 30px;
+    font-family: "seven";
+    font-size:80px;
+    border-radius: 5px
+}
+#guest_counter {
+    margin: 0 0 40px;
+    background-color: black;
+    color:red;
+    padding: 30px;
+    font-family: "seven";
+    font-size:80px;
+    border-radius: 5px
+}
+
+button{
+    background-color: #8e9aaf ;
+    padding: 10px;
+    margin: 7px;
+    width:50px;
+    font-family: "seven";
+    border-bottom: 4px solid #ced4da;
+    border-right: 4px solid #dee2e6;
+    border-left: 4px solid #6c757d;
+    border-top: 4px solid #adb5bd;
+   
+    
+}
+
+#reset{
+    margin: 30px 0px 0px;
+    width:120px;
+    font-family: "seven";
+    
+}
